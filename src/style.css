@@ -12,3 +12,38 @@ img{
 body{
     font-family: 'Roboto','sans-serif';
 }
+
+
+
+
+.testclass{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.testclass::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(26, 26, 26, 0.8),rgba(26, 26, 26, 0.1),rgba(0, 0, 0, 0));
+}
+.frontview_bunglaows{
+    position: relative;
+    overflow: hidden;
+}
+.frontview_bunglaows::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(26, 26, 26, 0.1),rgba(26, 26, 26, 0.8));
+}
+
